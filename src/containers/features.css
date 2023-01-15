@@ -1,0 +1,167 @@
+.features-container{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    margin:10px auto;
+    row-gap: 20px;
+    font-size: 1.5rem;
+    font-family: var(--font-family);
+    color:var(--color-bg);
+    text-align: justify;
+
+}
+ .features{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+} 
+.features .future-text{
+
+font-family: 'Manrope';
+font-style: normal;
+
+/* or 132% */
+
+background: linear-gradient(103.22deg, #7b14e8 -13.86%, #d74e05 99.55%), #FFFFFF;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+.features .request-text{
+
+
+
+font-family: 'Manrope';
+font-style: normal;
+
+/* identical to box height, or 188% */
+
+
+color:  #FF4820;
+}
+.features-property{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+}
+.features .property-text{
+
+
+font-family: 'Manrope';
+font-style: normal;
+
+
+color:  #031B34;;
+}
+.features .benefit-text{
+   
+
+font-family: 'Manrope';
+font-style: normal;
+
+/* or 171% */
+
+
+color: #031B34;;
+}
+@media screen and (min-width:500px){
+    .features .future-text{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+@media screen and (min-width:1050px) {
+    
+
+.features-container{
+    display: grid;
+    grid-template-columns: 25% 20% 25%;
+    gap:12rem;
+    width: 90%;
+   margin: 2rem auto;
+
+
+}
+ .features{
+    display:flex;
+    flex-direction: column;
+    
+    
+
+} 
+.features .future-text{
+
+
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 2rem;
+line-height: 3rem;
+/* or 132% */
+
+background: linear-gradient(103.22deg, #7b14e8 -13.86%, #d74e05 99.55%), #FFFFFF;
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+.features .request-text{
+    width: 171px;
+height: 30px;
+left: 140px;
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+
+color:  #FF4820;
+}
+.features .property-text{
+    width: 180px;
+height: 48px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+letter-spacing: -0.04em;
+
+color:  #031B34;;
+}
+.features-benefit{
+    
+    justify-self: end;
+
+}
+.features .benefit-text{
+    width: 240px;
+height: 72px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 171% */
+
+
+color: #031B34;;
+}
+}

@@ -1,0 +1,157 @@
+.body-whatIs{
+
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    margin:10px auto;
+    row-gap: 20px;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    text-align: justify;
+
+    
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.body-whatIs-contents{
+    
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+    
+
+}
+.body-whatIs-contents-first{
+    display:flex;
+    flex-direction: column;
+}
+
+.body-whatIs-contents .lg-text{
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-size: 1.5rem;
+font-weight: 600;
+
+/* identical to box height, or 312% */
+
+letter-spacing: -0.04em;
+
+color:  #031B34;
+}
+.body-whatIs-contents .sm-text{
+
+text-align: justify;
+
+font-family: 'Manrope';
+font-style: normal;
+font-size: 1.5rem;
+/* or 188% */
+
+
+color: #031B34;
+
+}
+.body-whatIs-contents-second .possibilities{
+    
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 1.5rem;
+    width:100%;
+    /* or 132% */
+    
+    
+    background: linear-gradient(103.22deg, #7b14e8 -13.86%, #d74e05 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    
+}
+.body-whatIs-contents-second .explore{
+ 
+
+font-family: 'Manrope';
+font-style: normal;
+
+/* identical to box height, or 188% */
+
+
+color: #FF4820;
+
+}
+ div.rectangle{
+height: 0.2rem;
+width: 2rem;
+background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+.body-whatIs-contents-opinion{
+   display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.sm-text-opinion{
+   
+
+
+font-family: 'Manrope';
+font-style: normal;
+
+/* or 188% */
+
+
+color:  #031B34;
+
+}
+@media screen and (min-width:500px){
+    .body-whatIs-contents-first{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    
+    }
+     .lg-text{
+      
+      font-size:2rem;
+      font-weight: 500;
+    }
+    .body-whatIs-contents-third{
+        display:grid;
+        grid-template-columns: 25% 25% 25%;
+        gap:12%;
+    }
+    .body-whatIs-contents-first .sm-text{
+        width:55%;
+    }
+    .body-whatIs-contents-opinion{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .sm-text-opinion{
+        width: 25%;
+    }
+}
+@media screen and (min-width:700px){
+   
+ 
+    .body-whatIs-contents-second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .body-whatIs-contents-second .possibilities{
+        font-size: 2rem;
+        width: 30%;
+    }
+    }
+
+@media screen and (min-width:1050px){
+    
+}

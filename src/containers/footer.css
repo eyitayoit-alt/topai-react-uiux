@@ -1,0 +1,156 @@
+
+    
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+        background: #031B34;
+    row-gap: 20px;
+        text-align: left;
+        color: #fff;
+    
+        font-family: 'Manrope';
+        font-style: normal;
+    }
+    .footer-container>h2{
+     font-family: 'Manrope';
+    font-style: normal;
+    font-size: 18px;
+   
+
+    
+    
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    .footer-container>button{
+       
+        background: #031B34;
+        border: 1px solid #FFFFFF;
+        color:#fff;
+        width:150px;
+        margin: 0.5rem auto;
+        height: 40px;
+    
+        
+    }
+    .sub-con-one{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+        
+        
+    }
+    .textbox-one{
+    
+       
+        
+    }
+    .textbox-one>.top-text{
+
+    }
+    .textbox-one>.address{
+        
+    }
+    .textbox-two{
+        display: grid;
+        grid-template-columns:repeat(2,100px);
+        gap:10px;
+          
+        
+    }
+    .textbox-two>p{
+    
+        
+       
+    }
+    .textbox-two >p.top-profile{
+    
+    }
+    .copy-right{
+    text-align:center;
+    }
+    
+
+@media screen and (min-width:1050px) {
+    
+.footer-container{
+    display: flex;
+    flex-direction: column;
+  
+    width:100%;
+    margin: 2rem auto;
+    background: #031B34;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 2rem;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+.footer-container>h2{
+    width: 600px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 55px;
+text-align: center;
+letter-spacing: -0.04em;
+margin:2rem auto;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.footer-container>button{
+    height:6rem;
+    width:150px;
+    background: #031B34;
+    border: 1px solid #FFFFFF;
+    margin:1.5rem auto;
+    color:#fff;
+    padding: 0.5rem 0.5rem;
+    
+}
+
+.textbox-one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    
+}
+.textbox-one>.top-text{
+    font-size: 3rem;
+    font-weight: 600;
+   align-self: center;
+    
+}
+.textbox-one>.address{
+    font-size: 2rem;
+}
+.textbox-two{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 100%;
+    text-align: left;
+    margin-left: 1.5rem;
+}
+.textbox-two>p{
+    font-size: 1.5rem;
+    width: 25%;
+    
+   
+}
+.textbox-two >p.top-profile{
+    font-size: 2rem;
+}
+.copy-right{
+    margin-top: 20px;
+}
+}
