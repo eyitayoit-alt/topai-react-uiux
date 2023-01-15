@@ -1,0 +1,33 @@
+.gpt3__body-brand{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+ width:90%;
+ margin: 1rem auto;
+ align-content: center;
+column-gap: 3rem;
+row-gap: 1rem;
+
+}
+.gpt3__body-brand img{
+    width:100px;
+    height: 40px;
+    filter: contrast(200%);
+}
+@media screen and (min-width:500px){
+    .gpt3__body-brand{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+@media screen and (min-width:1000px){
+    .gpt3__body-brand{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        padding:2rem 2rem;
+    
+        height: 80px;
+    
+        background: #01182f; 
+}
+}
