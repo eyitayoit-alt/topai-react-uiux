@@ -5,7 +5,7 @@ const Menu=()=>{
   return(
 <>
           <p><a href="#">Home</a></p>
-          <p><a href to="#wgpt3">About TOP-AI?</a></p>
+          <p><a href="#wgpt3">About TOP-AI?</a></p>
           <p><a href="#posibility">Open AI</a></p>
           <p><a href="#features">Case Studies</a></p>
           <p><a  href="#blog">Library</a></p>
