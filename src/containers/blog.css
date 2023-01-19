@@ -76,28 +76,28 @@ font-style: normal;
 
 .lg-image{
     background: 
-    url("../../assets/blog01.png") center / cover no-repeat;
+    url("../../assests/blog01.png") center / cover no-repeat;
     width: 100%;
     height: 250px;
 
 }
 .sm-image-one{
     background: 
-    url("../../assets/blog02.png") center / cover no-repeat;
+    url("../../assests/blog02.png") center / cover no-repeat;
     width: 100%;
 height: 200px;
     
 }
 .sm-image-two{
     background: 
-    url("../../assets/blog03.png") center / cover no-repeat;
+    url("../../assests/blog03.png") center / cover no-repeat;
     width: 100%;
 height: 200px;
     
 }
 .sm-image-three{
     background: 
-    url("../../assets/blog04.png") center / cover no-repeat;
+    url("../../assests/blog04.png") center / cover no-repeat;
     width: 100%;
 height: 200px;
 
@@ -105,7 +105,7 @@ height: 200px;
 }
 .sm-image-four{
         background: 
-        url("../../assets/blog05.png") center / cover no-repeat;
+        url("../../assests/blog05.png") center / cover no-repeat;
         width: 100%;
 height: 200px;
         
@@ -207,28 +207,28 @@ height: 280px;
 }
 .sm-image-one{
     background: 
-    url("../../assets/blog02.png") center / cover no-repeat;
+    url("../../assests/blog02.png") center / cover no-repeat;
     width: 100%;
 height: 130.47px;
     
 }
 .sm-image-two{
     background: 
-    url("../../assets/blog03.png") center / cover no-repeat;
+    url("../../assests/blog03.png") center / cover no-repeat;
     width: 100%;
 height: 130.47px;
     
 }
 .sm-image-three{
     background: 
-    url("../../assets/blog04.png") center / cover no-repeat;
+    url("../../assests/blog04.png") center / cover no-repeat;
     width: 100%;
 height: 130.47px;
     
 }
 .sm-image-four{
         background: 
-        url("../../assets/blog05.png") center / cover no-repeat;
+        url("../../assests/blog05.png") center / cover no-repeat;
         width:100%;
 height: 130.47px;
         
