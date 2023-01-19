@@ -1,6 +1,6 @@
 import React from 'react';
 import "./possibility.css";
-import pi from '../../assets/possibility.png';
+import pi from '../../assests/possibility.png';
 
 const Possibility = () => {
   return (
