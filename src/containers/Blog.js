@@ -3,7 +3,7 @@ import  './blog.css';
 
 const Blog = () => {
   return (
-    <div className='blog-container'>
+    <div className='blog-container' id="blog">
           
         <h1 className='blog-header'>
         A lot is happening, 
